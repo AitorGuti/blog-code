@@ -5,7 +5,7 @@ description: "Successful first post"
 excerpt: " "
 date: 2023-06-04
 author: "Aitor Gutierrez Valero"
-image: "https://i.imgur.com/prPLcUi.jpg"
+image: ""
 published: true
 tags:
   - career
