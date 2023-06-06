@@ -4,7 +4,9 @@ How to update blog:
 
 2. In blog-code/aitorgutiblog type: hugo -t hugo-theme-cleanwhite
 
-This added static stuff to public folder
+This added static stuff to public folder.
+
+Now in both the public folder and the general folder you will:
 
 3. git status
 
