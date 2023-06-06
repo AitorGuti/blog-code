@@ -1,0 +1,4 @@
+[submodule "aitorgutiblog/public"]
+	path = aitorgutiblog/public
+	url = https://github.com/AitorGuti/aitorguti.github.io.git
+	branch = main
