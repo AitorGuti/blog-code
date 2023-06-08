@@ -6,7 +6,7 @@ How to update blog:
 
 This added static stuff to public folder.
 
-Now in both the public folder and the general folder you will:
+Now in both the public folder and blog-code folder you will:
 
 3. git status
 
