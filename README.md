@@ -1,3 +1,5 @@
+This repository contains all of the files needed to create the static content for my blog using hugo.
+
 How to update blog:
 
 1. Add stuff to blog-code/aitorgutiblog
