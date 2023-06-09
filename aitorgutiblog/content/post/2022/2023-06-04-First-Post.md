@@ -1,14 +1,14 @@
 ---
 title: "Exploring Statistics"
-subtitle: ""
-description: ""
+subtitle: "Describing and defining important concepts in statistics."
+description: " "
 excerpt: ""
 date: 2022-09-01
 author: "Aitor Gutierrez Valero"
 image: ""
 published: true
 tags:
-  - ["rstudio", "r", "Foundation"]
+ - ["Learning"]
 URL: "2022/09/01/Exploring-Statistics"
 categories: ["Learning"]
 ---
@@ -45,37 +45,12 @@ between 63 and 77 kg.
 Below is a table comparing the error margin and confidence level for
 different sample sizes of a population of 1 million people.
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: right;">Sample Size</th>
-<th style="text-align: right;">Error Margin</th>
-<th style="text-align: right;">Confidence Level</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">31</td>
-<td style="text-align: right;">15</td>
-<td style="text-align: right;">90</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">97</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">95</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">664</td>
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">99</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">16317</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">99</td>
-</tr>
-</tbody>
-</table>
+| Sample Size | Error Margin | Confidence Level |
+|------------:|-------------:|-----------------:|
+|          31 |           15 |               90 |
+|          97 |           10 |               95 |
+|         664 |            5 |               99 |
+|       16317 |            1 |               99 |
 
 ------------------------------------------------------------------------
 
@@ -144,83 +119,17 @@ statistics. First are the averages, next is the spread.
 
     -7, 1, 2, 2, 3, 4, 5, 5, 6, 22
 
-<table>
-<colgroup>
-<col style="width: 8%" />
-<col style="width: 39%" />
-<col style="width: 29%" />
-<col style="width: 22%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Mean</th>
-<th style="text-align: left;">Median</th>
-<th style="text-align: left;">Mode</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Description</td>
-<td style="text-align: left;">Sum of all of the numbers divided by the
-number of numbers</td>
-<td style="text-align: left;">Value separating the upper and lower
-halves</td>
-<td style="text-align: left;">Most frequent value in a dataset</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Example</td>
-<td style="text-align: left;">(-7 + 1 + 2 + … + 22)/10</td>
-<td style="text-align: left;">Mean of 3 and 4</td>
-<td style="text-align: left;">Bimodal</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Result</td>
-<td style="text-align: left;">4.3</td>
-<td style="text-align: left;">3.5</td>
-<td style="text-align: left;">2 and 5</td>
-</tr>
-</tbody>
-</table>
+| Type        | Mean                                                       | Median                                      | Mode                             |
+|:------------|:-----------------------------------------------------------|:--------------------------------------------|:---------------------------------|
+| Description | Sum of all of the numbers divided by the number of numbers | Value separating the upper and lower halves | Most frequent value in a dataset |
+| Example     | (-7 + 1 + 2 + … + 22)/10                                   | Mean of 3 and 4                             | Bimodal                          |
+| Result      | 4.3                                                        | 3.5                                         | 2 and 5                          |
 
-<table>
-<colgroup>
-<col style="width: 7%" />
-<col style="width: 32%" />
-<col style="width: 22%" />
-<col style="width: 37%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Range</th>
-<th style="text-align: left;">Standard_Deviation</th>
-<th style="text-align: left;">Interquartile_Range</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Description</td>
-<td style="text-align: left;">Difference between the highest and lowest
-numbers</td>
-<td style="text-align: left;">Amount of dispersion from the mean</td>
-<td style="text-align: left;">Difference between the 25th (Q1) and 75th
-(Q3) percentiles</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Example</td>
-<td style="text-align: left;">22 - (-7)</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Q1 = 2 Q3 = 5</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Result</td>
-<td style="text-align: left;">29</td>
-<td style="text-align: left;">6.84</td>
-<td style="text-align: left;">3</td>
-</tr>
-</tbody>
-</table>
+| Type        | Range                                             | Standard_Deviation                 | Interquartile_Range                                        |
+|:------------|:--------------------------------------------------|:-----------------------------------|:-----------------------------------------------------------|
+| Description | Difference between the highest and lowest numbers | Amount of dispersion from the mean | Difference between the 25th (Q1) and 75th (Q3) percentiles |
+| Example     | 22 - (-7)                                         |                                    | Q1 = 2 Q3 = 5                                              |
+| Result      | 29                                                | 6.84                               | 3                                                          |
 
 ### 3. Inferential Statistics
 

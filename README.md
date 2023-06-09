@@ -17,3 +17,9 @@ Now in both the public folder and blog-code folder you will:
 5. git commit -m "I added a post"
 
 6. git push
+
+Also for Shortcodes:
+
+{{< rawhtml >}}
+HTML HERE
+{{< /rawhtml >}}
