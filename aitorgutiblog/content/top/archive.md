@@ -2,6 +2,6 @@
 title: "Posts Archive"
 layout: archive
 hidden: true
-type: post
+Type: post
 description: Archive of historical posts.
 ---
