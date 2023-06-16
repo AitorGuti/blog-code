@@ -6,6 +6,7 @@ excerpt: ""
 date: 2022-09-19
 author: "Aitor Gutierrez Valero"
 image: ""
+featured_image: /img/posts/2022-09-20-Spain-GDPpc/GDPPC_Absolute_Change.png
 published: true
 tags:
  - Project
@@ -202,7 +203,7 @@ ggsave("GDPPC_Percent_Change.png", dpi = 800)
 
 ![](/img/posts/2022-09-20-Spain-GDPpc/GDPPC_Percent_Change.png)<!-- -->
 
-An animation is made shocasing the absolute change in GDPPC for each
+An animation is made showcasing the absolute change in GDPPC for each
 province from 2000 to 2019.
 
 ``` r
