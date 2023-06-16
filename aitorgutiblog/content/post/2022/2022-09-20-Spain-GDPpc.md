@@ -13,8 +13,8 @@ tags:
  - r
  - Rstudio
  - Visualisation
-URL: "2022/09/20/spain-gdppc"
-categories: ["Project"]
+URL: "2022/09/20/Spain-dppc"
+categories: ["Projects"]
 ---
 
 # GDP per capita of Spanish Regions
