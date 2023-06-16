@@ -8,7 +8,8 @@ author: "Aitor Gutierrez Valero"
 image: ""
 published: true
 tags:
- - ["Learning"]
+ - Foundation
+ - Statistics
 URL: "2022/09/01/Exploring-Statistics"
 categories: ["Learning"]
 ---

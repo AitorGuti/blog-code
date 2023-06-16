@@ -8,7 +8,10 @@ author: "Aitor Gutierrez Valero"
 image: ""
 published: true
 tags:
- - ["Project"]
+ - Project
+ - r
+ - Rstudio
+ - Visualisation
 URL: "2022/09/20/spain-gdppc"
 categories: ["Project"]
 ---
